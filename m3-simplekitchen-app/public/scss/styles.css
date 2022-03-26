@@ -1,3 +1,4 @@
+/* Variables */
 /* Nesting */
 /* SCSS */
 nav {
@@ -25,7 +26,16 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Variables */
+nav #registerA {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 80em;
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+
 html {
   font-size: 1em;
   width: 100%;
@@ -36,13 +46,13 @@ body {
   background: #daaa0e;
 }
 
-header {
+body header {
   height: 50px;
   width: 1350px;
   margin: 0.8em auto 1em auto;
 }
 
-main {
+body main {
   background: white;
   width: 1350px;
   min-height: 535px;
@@ -50,16 +60,16 @@ main {
   margin: 0 auto;
 }
 
-main #intro-image {
+body main #intro-image {
   float: left;
   width: 800px;
 }
 
-main #intro-image img {
+body main #intro-image img {
   width: 800px;
 }
 
-main #intro-text {
+body main #intro-text {
   width: 550px;
   height: 407px;
   float: left;
@@ -68,17 +78,17 @@ main #intro-text {
   padding-top: 8em;
 }
 
-main #intro-text h3 {
+body main #intro-text h3 {
   font-size: 2em;
   color: #313130;
 }
 
-main #intro-text span {
+body main #intro-text span {
   font-family: "Sacramento", cursive;
   font-size: 2em;
 }
 
-footer {
+body footer {
   width: 1350px;
   margin: 2em auto;
   padding-left: 80px;
