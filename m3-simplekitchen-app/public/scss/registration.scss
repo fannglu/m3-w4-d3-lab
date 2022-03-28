@@ -1,0 +1,36 @@
+@import "colors.scss";
+
+main {
+  #registerform {
+    float: right;
+    width: 800px;
+    align-items: center;
+    h2 {
+      padding: 3em 0;
+      text-align: center;
+    }
+    .form-registration {
+      text-align: left;
+      padding: 0 14rem;
+
+      label {
+        display: block;
+        width: 100%;
+        padding-top: 2em;
+      }
+      input {
+        display: block;
+        width: 95%;
+        height: 1.5rem;
+      }
+      .btn {
+        margin-top: 2em;
+        width: 97%;
+        background-color: $backgroundColor1;
+        color: $color4;
+        border-style: none;
+        height: 2rem;
+      }
+    }
+  }
+}
