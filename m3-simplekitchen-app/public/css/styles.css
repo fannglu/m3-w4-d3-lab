@@ -61,17 +61,18 @@ body main {
 }
 
 body main #intro-image {
-  float: left;
+  float: right;
   width: 800px;
 }
 
 body main #intro-image img {
   width: 800px;
+  height: 470px;
 }
 
 body main #intro-text {
-  width: 550px;
-  height: 407px;
+  width: 492px;
+  height: 470px;
   float: left;
   background: #d4d5d8;
   text-align: center;

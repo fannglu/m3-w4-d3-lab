@@ -1,13 +1,13 @@
 main #registerform {
   float: right;
-  width: 800px;
+  width: 750px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 main #registerform h2 {
-  padding: 3em 0;
+  padding: 1em 0;
   text-align: center;
 }
 
@@ -19,21 +19,37 @@ main #registerform .form-registration {
 main #registerform .form-registration label {
   display: block;
   width: 100%;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 main #registerform .form-registration input {
   display: block;
   width: 95%;
-  height: 1.5rem;
 }
 
 main #registerform .form-registration .btn {
-  margin-top: 2em;
+  margin-top: 1em;
   width: 97%;
   background-color: #daaa0e;
   color: white;
   border-style: none;
   height: 2rem;
+  text-align: center;
+  padding: 2px;
+}
+
+main #registerform li {
+  text-align: center;
+  list-style: none;
+}
+
+main #registerform li:before {
+  content: "! Error : ";
+  color: red;
+}
+
+main #thankyou {
+  text-align: center;
+  font-size: larger;
 }
 /*# sourceMappingURL=registration.css.map */

@@ -1,0 +1,14 @@
+@import "colors.scss";
+
+body {
+  .listing-table {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+
+    td {
+      background-color: $color4;
+      border: solid 2px;
+    }
+  }
+}

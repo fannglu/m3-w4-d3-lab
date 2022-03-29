@@ -1,0 +1,11 @@
+body .listing-table {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+body .listing-table td {
+  background-color: white;
+  border: solid 2px;
+}
+/*# sourceMappingURL=listingtable.css.map */

@@ -21,7 +21,7 @@ router.get("/register", (req, res) => {
 });
 
 router.get(
-  "/registrations",
+  "/registrants",
   basic.check((req, res) => {
     Registration.find()
       .then((registrations) => {
@@ -50,14 +50,14 @@ router.post(
       registration
         .save()
         .then(() => {
-          res.send("Thank you for your registration!");
+          res.render("thankyou", { title: "Thank You Page" });
         })
         .catch((err) => {
           console.log(err);
           res.send("Sorry! Something went wrong.");
         });
     } else {
-      res.render("form", {
+      res.render("register", {
         title: "Registration form",
         errors: errors.array(),
         data: req.body,

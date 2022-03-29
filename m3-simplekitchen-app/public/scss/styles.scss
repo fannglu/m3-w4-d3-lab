@@ -21,23 +21,25 @@ body {
   main {
     background: $mainColor;
     width: 1350px;
-    min-height: 535px;
+    min-height:535px;
     padding: 1.5%;
     margin: 0 auto;
 
     #intro-image {
-      float: left;
+      float: right;
       width: 800px;
+     
 
       img {
         width: 800px;
+       height: 470px;
       }
     }
 
     #intro-text {
-      width: 550px;
-      height: 407px;
-      float: left;
+      width: 492px;
+      height: 470px;
+      float:left;
       background: $sectionColor;
       text-align: center;
       padding-top: 8em;
@@ -52,7 +54,6 @@ body {
         font-size: 2em;
       }
     }
-   
   }
 
   footer {

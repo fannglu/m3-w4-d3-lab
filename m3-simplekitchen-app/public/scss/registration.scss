@@ -3,12 +3,13 @@
 main {
   #registerform {
     float: right;
-    width: 800px;
+    width: 750px;
     align-items: center;
     h2 {
-      padding: 3em 0;
+      padding: 1em 0;
       text-align: center;
     }
+
     .form-registration {
       text-align: left;
       padding: 0 14rem;
@@ -16,21 +17,36 @@ main {
       label {
         display: block;
         width: 100%;
-        padding-top: 2em;
+        padding-top: 1em;
       }
       input {
         display: block;
         width: 95%;
-        height: 1.5rem;
+        // height: 1.5rem;
       }
       .btn {
-        margin-top: 2em;
+        margin-top: 1em;
         width: 97%;
         background-color: $backgroundColor1;
         color: $color4;
         border-style: none;
         height: 2rem;
+        text-align: center;
+        padding: 2px;
       }
     }
+
+    li {
+      text-align: center;
+      list-style: none;
+    }
+    li:before {
+      content: "! Error : ";
+      color: red;
+    }
+  }
+  #thankyou {
+    text-align: center;
+    font-size: larger;
   }
 }
